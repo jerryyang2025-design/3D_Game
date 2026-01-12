@@ -1,0 +1,10 @@
+Plan the overall project structure and list your parts here
+
+Nigel:
+credits
+website
+
+Jerry:
+polygon clipping
+blender models and stage design
+optimization

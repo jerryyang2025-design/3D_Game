@@ -264,11 +264,11 @@ void polygonRefraction(struct Object& object, int polygon, std::array<float,3> l
 
     float shift = direction(normalVector,halfVector);
 
-    shift = pow(1 - clamp(shift,0,1), 0.5);
+    shift = 6.2831 * pow(1 - clamp(shift,0,1), 0.5);
 
-    float colorShift[3] = {0.5 + 0.5 * sin(shift * 6.2831 + 0.0), 
-        0.5 + 0.5 * sin(shift * 6.2831 + 2.0), 
-        0.5 + 0.5 * sin(shift * 6.2831 + 4.0)};
+    float colorShift[3] = {0.0 + 0.7 * sin(shift + 0.0), 
+        0.0 + 1.0 * sin(shift + 2.0), 
+        0.0 + 1.0 * sin(shift + 4.0)};
 
     for (int i = 0; i < 3; i++) {
         object.faceColors[polygon][i] = clamp(object.faceColors[polygon][i] + colorShift[i] * object.refractionValue,0,255);

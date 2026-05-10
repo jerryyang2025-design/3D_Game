@@ -46,4 +46,4 @@ Developed a custom physics system to handle complex 3D interactions and rigid-bo
 - `utils.cpp`: High-performance math utilities for 3D space transformations.
 
 ---
-*Developed as part of the FEH Robot Project / Software Sequence.*
+*Developed as part of the FEH Software Development Project.*

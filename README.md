@@ -1,5 +1,7 @@
 # Glacier Run
 
+![Glacier Run Gameplay](https://github.com/user-attachments/assets/c7ee75bd-47a4-4fd6-902b-d19d1c0325b5)
+
 Glacier Run is a 3D platforming game developed for the Proteus controller (using the FEH libraries). Players navigate a polar bear across melting ice floes, avoiding freezing water to reach the safety of the goal flag. Rather than using existing game engines or graphics APIs, this project features a custom-built **3D Software Renderer**, a **Polygon-Level Physics Engine**, and a **Multi-threaded Pipeline** designed to maximize performance on resource-constrained hardware.
 
 ## 🎮 Game Features
